@@ -126,7 +126,9 @@ header .navbar {
 }
 
 .navbar :where(#menu-close-button, #menu-open-button) {
-    display: none;
+    display: block;
+    font-size: var(--font-size-1);
+    color: var(--white-color);
 }
 
 /* Hero section styling */
